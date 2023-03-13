@@ -120,7 +120,7 @@ if __name__ == "__main__":
    
     task_label = Label( functions_frame,text = "Enter Task:",  
         font = ("arial", "14", "bold"),  
-        background = "red", foreground="white"
+        background = "red", foreground="black"
     )  
      
     task_label.place(x = 20, y = 30)  
@@ -164,7 +164,7 @@ if __name__ == "__main__":
         functions_frame,  
         text = "Exit",  
         width = 52,
-        bg='red',fg="white",  font=("arial", "14", "bold"),
+        bg='red',fg="black",  font=("arial", "14", "bold"),
         command = close  
     )  
     add_button.place(x = 18, y = 80,)  
